@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do-list.com</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            /* background-color: navy; */
+            box-sizing: border-box;
+            font-family: 'Poppins', Courier, monospace,sans-serif;
+        }
+        .container{
+            width: 100%;
+            /* height: 100vh; */
+            min-height: 100vh;
+            background:linear-gradient(135deg,rgb(86, 24, 231) ,rgb(197, 169, 14));
+            padding: 10px;
+        }
+        .todo-app h2{
+            color:#002765;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+        .todo-app h2 img{
+            width: 30px;
+            margin-left: 10px;
+        }
+        .todo-app{
+            width: 100%;
+            max-width: 540px;
+            background: white;
+            margin: 100px auto 20px;
+            padding: 40px 30px 70px;
+            border-radius: 10px;
+        }
+        .row{
+            display: flex;
+            justify-content: space-around;
+            border-radius:10px ;
+            background:#edeef0;
+            align-items: center;
+            padding-left:  20px;
+            margin-bottom: 25px;
+        }
+        input{
+            flex:1;
+            border: none;
+            outline: none;
+            background: transparent;
+            padding: 10px;
+            font-weight: 14px;
+        }
+        button{
+            border: none;
+            outline: none;
+            cursor: pointer;
+            background: #842541;
+            color: white;
+            font-size: 16px;
+            padding: 16px 50px;
+            border-radius: 40px;
+        }
+        ul li{
+            list-style: none;
+            font-size: 18px;
+            padding: 12px 8px 12px 50px;
+            user-select: none;
+            cursor: pointer;
+            position: relative;
+        }
+        ul li::before{
+            content: '';
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            position: absolute;
+            background-image: url(unchacked.png);
+            background-size: cover;
+            background-position: center;
+            top: 8px;
+            left: 9px; 
+        }
+        ul li.checked{
+            color: #f61414;
+            text-decoration: line-through;
+            /* background-color: red; */
+        }
+        ul li.checked::before{
+            background-image: url(checked.jpg);
+        }
+        ul li span{
+            position: absolute;
+            right: 0;
+            top: 5px;
+            width: 40px;
+            height: 40px;
+            font-size: 22px;
+            color: #555;
+            line-height: 40px;
+            text-align: center;
+        }
+        ul li span:hover{
+            background: rgb(171, 161, 161);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+        <h2 >To-Do List <img src="To-do_List-1024.webp"></h2>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add your text">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+            <!-- <li class="checked">task 1</li>
+            <li>task 1</li>
+            <li>task 1</li> -->
+        </ul>
+        </div>
+    </div>
+    <script src="todojavascript.js"></script>    
+</body>
+</html>

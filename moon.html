@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>moon for my moon</title>
+    <link rel="stylesheet" href="ram.css">
+    <style>
+        body
+{
+  background-color:black;
+}
+.moon{
+  height:200px;
+  width:200px;
+  background-color:white;
+  margin:auto;
+  margin-top:200px;
+  
+  box-shadow:0px 0px 80px 6px rgba(255, 255, 255, 1), 0 5px 20px 0 rgba(255, 255, 255, 1);
+  position:relative;
+}
+.moon::after{
+  content:"";
+  height:0.9rem;
+  width:0.9em;
+  background-color:rgb(148, 146, 146);
+  border-radius:50%;
+  left:0.9em;
+  top:4.5em;
+  position:absolute;
+   box-shadow:0.9em -2.1em 0 0.2em rgb(153, 152, 152),
+     0.8em 1.9em 0 0.3em rgb(144, 144, 146);
+}
+</style>
+</head>
+<body>
+  
+
+   <div class="moon"></div>
+   
+</body>
+</html>

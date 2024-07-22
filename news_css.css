@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    background-color: yellow;
+    color: orange;
+    font-weight: 100;
+}

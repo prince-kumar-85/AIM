@@ -1,0 +1,154 @@
+/* @media only screen and (max-width: 500px) { */
+    
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+      
+    /* background-color: rgb(111, 103, 109); */
+}
+.navbar i{
+    font-size: 16.5px
+}
+.navbar{
+    display: flex;
+    background-color: #76065c;
+    position: relative;
+
+}
+.navbar .logo{
+    margin: 10px 30px;
+    background-color: #76065c;
+}
+.logo img{
+    height: 50px;
+    border-radius: 20px;
+    background-color: #76065c;
+    
+}
+#op{
+    padding-top: 15px;
+    background-color: #76065c;
+}
+.navbar .iconn{
+    display: inline-flex;
+    background-color: #76065c;
+    /* margin-left: 80px; */
+    padding-top: 15px;    
+    /* background-color: violet; */
+    padding-left: 45px;
+    justify-content:space-between;
+}
+.pp{
+    color: aliceblue;
+    margin: 10px;
+
+}
+.tranfericon{
+    display: flex;
+    /* background-color: #76065c; */
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+.moneytransfer{
+    background-color: rgb(66, 2, 52);
+    /* border-radius: 10px; */
+}
+.moneytransfer h4{
+    color: white;
+    margin-left: 10px;
+}
+.tranfericon .lp i{
+    margin-left:20px ;
+    font-size: 33px;
+    background-color: #ef26c0;
+    border-radius: 10px;
+    color: white;
+
+}
+.tranfericon .lp  p{
+    color: white;
+    margin: 10px 4px;
+    /* font-weight: ; */
+}
+.wallet{
+    background-color: #76065c;
+    height: 70px;
+}
+.wallet .wallicon{
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.wallet .wallicon .li{
+    /* pad; */
+    border: 2px solid rgb(59, 37, 112);
+    border-radius:10px ;
+    background-color: rgb(47, 47, 138);
+}
+.wallet .wallicon .li i{
+    color: white;
+    margin: 10px 40px;
+}
+.wallet .wallicon .li p{
+    color: white;
+    text-align: center;
+}
+.my_bill .ko{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.my_bill{
+    background-color: #76065c;
+    /* border-radius; */
+}
+.my_bill .ko{
+    color: white;
+    
+
+}
+.my_bill .ko .lio , .bil{
+    margin-top: 12px;
+    margin-left: 5px;
+}
+.my_bill .lop i{
+    /* display: flex;
+    /* justify-content: space-between;
+    font-size: 30px;
+    color: white;
+    margin: 10px 4px;
+    padding:15px;
+    background-color: ; */
+  /*  margin-left:20px ;
+    font-size: 33px;
+    background-color: #ef26c0;
+    border-radius: 10px;
+    color: white; */
+    display: flex;
+    /* background-color: #76065c; */
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    color: white;
+
+}
+.my_bill .lop i {
+    background-color: #ef26c0;
+    padding: 4px
+    ;border-radius: 10px;
+    margin: px;
+
+}
+.my_bill .lop  p{
+    /* background-color: yellow; */
+    color:white;
+    font-size: 16px;
+    padding-left: 110px;
+}
+
